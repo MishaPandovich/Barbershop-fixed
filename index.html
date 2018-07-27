@@ -94,8 +94,8 @@
 					ПН-ПТ: с 10:00 до 20:00<br>
 					СБ-ВС: с 10:00 до 19:00
 				</p>
-				<a class="bnt contacts__bnt" href="map.html">Как проехать</a>
-        		<a class="bnt contacts__bnt" href="contacts.html">Обратная связь</a>
+				<a class="bnt contacts__bnt contacts__bnt--map" href="#">Как проехать</a>
+        		<a class="bnt contacts__bnt" href="#">Обратная связь</a>
 			</section>
 			<section class="appointment flex-wrapper__appointment flex-wrapper--right">
 				<h3 class="appointment__caption">Записаться</h3>
@@ -128,31 +128,30 @@
 			</div>
 			<div class="copyright footer__copyright">
 				<b class="copyright__caption">Разработано:</b><br>
-				<a class="bnt copyright__bnt" href="#">Htmlacademy.ru</a>
+				<a class="bnt copyright__bnt" href="https://htmlacademy.ru">Htmlacademy.ru</a>
 			</div>
 		</div>
 	</footer>
-<!--
 	<section class="modal modal-login">
 	    <h3>Личный кабинет</h3>
 	    <p>Введите пожалуйста свой логин и пароль.</p>
-	    <form action="https://echo.htmlacademy.ru" method="post">
-	        <input type="text" name="login" placeholder="Логин">
-	        <input type="password" name="password" placeholder="Пароль">
+	    <form class="form-login" action="https://echo.htmlacademy.ru" method="post">
+	        <input class="form-login__input" type="text" name="login" placeholder="Логин">
+	        <input class="form-login__input" type="password" name="password" placeholder="Пароль">
 
-	        <input class="modal-login__input" type="checkbox" name="memorize" id="memorize" checked>
+	        <input class="form-login__checkbox" type="checkbox" name="memorize" id="memorize" checked>
 	        <label for="memorize">Запомните меня</label>
-	        <a href="https://echo.htmlacademy.ru">Я забыл пароль!</a>
+	        <a class="form-login__link" href="https://echo.htmlacademy.ru">Я забыл пароль!</a><br>
 
-	        <input type="submit" value="Войти">
+	        <input class="form-login__login" type="submit" value="Войти">
 	    </form>
-	    <button class="modal-close" type="button">Закрыть модальное окно личного кабинета</button>
+	    <button class="modal-close" type="button"><span>Закрыть модальное окно личного кабинета</span></button>
 	</section>
--->
-
-<!--<section class="modal modal-map">
-    <h2 class="visually-hidden">Как до нас добраться</h2>
-    <button class="modal-close" type="button">Закрыть модальное окно карты</button>
-</section>-->
+	<section class="modal modal-map">
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7994.680358908834!2d30.31714368933628!3d59.9376163631696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fb661d55f%3A0xd0cc7f055debe430!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1532673180048" width="760" height="555" frameborder="0" style="border:10px solid #ffffff" allowfullscreen></iframe>
+    	<button class="modal-close modal-close--map" type="button"><span>Закрыть модальное окно карты</span></button>
+	</section>
+	<script type="text/javascript" src="js/modal-login.js"></script>
+	<script type="text/javascript" src="js/modal-map.js"></script>
 </body>
 </html>
