@@ -8,6 +8,6 @@ button.addEventListener("click", function (evt) {
 });
 
 exit.addEventListener("click", function (evt) {
-evt.preventDefault();
-modal.classList.remove("modal-show-map");
-});
+	evt.preventDefault();
+	modal.classList.remove("modal-show-map");
+});	

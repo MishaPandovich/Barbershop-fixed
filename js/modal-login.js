@@ -8,7 +8,7 @@ link.addEventListener("click", function (evt) {
 });
 
 close.addEventListener("click", function (evt) {
-evt.preventDefault();
-popup.classList.remove("modal-show");
+	evt.preventDefault();
+	popup.classList.remove("modal-show");
 });
 
